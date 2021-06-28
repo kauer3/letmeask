@@ -17,7 +17,7 @@ export function RoomCode(props: RoomCodeProps) {
       <div>
         <img src={copyImg} alt="Copy room code" />
       </div>
-      <span>Sala -W#$%codigodasala@#$%</span>
+      <span>Sala #{props.code}</span>
     </button>
   )
 }
